@@ -1,12 +1,19 @@
-day = 'Friday'
-temperature = 30
-raining = False
+# day = 'Friday'
+# temperature = 30
+# raining = False
+#
+# if (day == 'Saturday' and temperature > 27) or not raining:
+#     print('Go Swimming')
+# else:
+#     print('Learn Python')
 
-if (day == 'Saturday' and temperature > 27) or not raining:
-    print('Go Swimming')
+if 0:
+    print('True')
 else:
-    print('Learn Python')
+    print('False')
 
-
-
-    
+name = input('please enter your name:')
+if name: # here we are checking for an empty string
+    print('Hello, {}'.format(name))
+else:
+    print('Do you not have a name?')
