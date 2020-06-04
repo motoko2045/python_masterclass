@@ -1,9 +1,15 @@
-name = input('hello there, what\' your name? ')
+# alternative solution
+
+name = input('hello there, what\'s your name? ')
 print('nice to meet you {}'.format(name))
-age = int(input('so how old are you, {}? '.format(name)))
+
+age = int(input('how old are you, {}? '.format(name)))
+
+
 print('thank you, it appears that you\'re ...')
 
-if age >= 18 and age <= 30:
+# change is here to make it more readable
+if 18 <= age < 30:
     print('congrats! you qualify to go on holiday')
 else:
     if age < 18:
