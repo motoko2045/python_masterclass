@@ -13,7 +13,7 @@ else:
     print('False')
 
 name = input('please enter your name:')
-if name: # here we are checking for an empty string
+if name != "":
     print('Hello, {}'.format(name))
 else:
     print('Do you not have a name?')
