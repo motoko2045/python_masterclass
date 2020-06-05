@@ -19,3 +19,16 @@ while True:
     elif choice in '123456789':
         print('you chose {}'.format(choice))
         break
+    else:
+        print('please enter a number under 10:')
+        print("""
+        1:\tlearn python
+        2:\tlearn mysql
+        3:\tlearn calculus
+        4:\tlearn linear algebra
+        5:\tlearn algorithms
+        6:\tlearn javascript
+        7:\tlearn html
+        8:\tlearn css
+        9:\tlearn EXIT
+        """)
